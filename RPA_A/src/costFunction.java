@@ -1,6 +1,6 @@
 import java.util.HashMap;
 import java.util.Map;
-
+/* Computes a cost from current node to head. */
 public class costFunction {
 	private final Map<graphCells, Map<graphCells, Double>> map = new HashMap();
 	
